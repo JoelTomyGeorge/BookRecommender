@@ -7,7 +7,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.neighbors import NearestNeighbors
 import matplotlib.pyplot as plt
-import seaborn as sns
+#import seaborn as sns
 
 # Load data (make sure to upload movies.csv and ratings.csv to your Streamlit app directory)
 movies = pd.read_csv('movies.csv')
